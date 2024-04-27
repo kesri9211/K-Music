@@ -1,8 +1,23 @@
-# React + Vite
+K-Music: practice working with api -spotify
+default display trending songs and then display according to the searched song
+--------------
+npm create vite@vatest
+  project name
+  npm i
+  npm run dev
+Host using: codeflare.com
+  yarn run build - create a 'dist' folder and upload this directly on codeflare.com
+------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+for CSS 'Bootstap': https://getbootstrap.com/docs/5.3/components/spinners/#about
+for API 'nocodeapi': https://nocodeapi.com/
+convert HTML to JSX: https://transform.tools/html-to-jsx
+-------------------
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+New and revised concept of React:
+  useState, state variable, hooks
+  searching songs- onChange={(event) => setKeyword(event.target.value)}
+  loading spinner - spin when search
+  map - display fetched data
+  
+  
